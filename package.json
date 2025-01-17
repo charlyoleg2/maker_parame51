@@ -39,10 +39,10 @@
 	"devDependencies": {
 		"desi51-cli": "^0.5.15",
 		"desi51-uis": "^0.1.4",
-		"desi52-cli": "^0.1.4",
-		"desi52-uis": "^0.1.4",
-		"desi53-cli": "^0.1.4",
-		"desi53-uis": "^0.1.4",
+		"desi52-cli": "^0.1.5",
+		"desi52-uis": "^0.1.5",
+		"desi53-cli": "^0.1.6",
+		"desi53-uis": "^0.1.6",
 		"rimraf": "^6.0.1"
 	}
 }
