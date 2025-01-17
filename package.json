@@ -1,0 +1,48 @@
+{
+	"name": "maker_parame51",
+	"version": "0.0.1",
+	"description": "parameters and stl for maker_parame51",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/maker_parame51.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/maker_parame51#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi51",
+		"desi52",
+		"desi53",
+		"desi53b",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi51-uis": "desi51-uis",
+		"desi51-cli": "desi51-cli",
+		"desi51-cli-help": "desi51-cli --help",
+		"myPartA_list-outopt": "desi82-cli --design desi82/myPartA list-outopt",
+		"myPartA_json_param": "desi82-cli --design=desi82/myPartA write json_param",
+		"myPartA_openscad_long": "desi82-cli --design=desi82/myPartA --param=refs/myPartA/px_myPartA_v01.json --outDir=refs/myPartA --outFileName=myPartA_v01.scad write scad_3d_openscad",
+		"myPartA_openscad": "desi82-cli -d=desi82/myPartA -p=refs/myPartA/px_myPartA_v01.json -o=refs/myPartA --outFileName=myPartA_v01.scad write scad_3d_openscad",
+		"myPartA_view": "openscad refs/myPartA/myPartA_v01.scad",
+		"myPartA_stl": "openscad -o refs/myPartA/myPartA_v01.stl refs/myPartA/myPartA_v01.scad",
+		"make_parts": "node make_parts.js",
+		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "rimraf refs/node_modules refs/package-lock.json refs/package.json",
+		"ls_refs": "ls -ltra refs"
+	},
+	"devDependencies": {
+		"desi51-cli": "^0.1.14",
+		"desi51-uis": "^0.1.14",
+		"desi52-cli": "^0.1.14",
+		"desi52-uis": "^0.1.14",
+		"desi53-cli": "^0.1.14",
+		"desi53-uis": "^0.1.14",
+		"rimraf": "^6.0.1"
+	}
+}
