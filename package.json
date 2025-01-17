@@ -37,12 +37,12 @@
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
-		"desi51-cli": "^0.1.14",
-		"desi51-uis": "^0.1.14",
-		"desi52-cli": "^0.1.14",
-		"desi52-uis": "^0.1.14",
-		"desi53-cli": "^0.1.14",
-		"desi53-uis": "^0.1.14",
+		"desi51-cli": "^0.5.15",
+		"desi51-uis": "^0.1.4",
+		"desi52-cli": "^0.1.4",
+		"desi52-uis": "^0.1.4",
+		"desi53-cli": "^0.1.4",
+		"desi53-uis": "^0.1.4",
 		"rimraf": "^6.0.1"
 	}
 }
