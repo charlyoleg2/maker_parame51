@@ -66,7 +66,7 @@ Vocabulary
 ----------
 
 - Design: A parametrizable 3D parts. Desginix is a collection of designs.
-- Part or Reference: A particular parametrization of a design.
+- Part (a.k.a Reference or 3D-model): A particular parametrization of a design.
 - Instance: The realization of a reference.
 
 
