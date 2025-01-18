@@ -35,8 +35,8 @@ const c_svgdxf = {
 };
 
 // partName: designName
-const pre51g1 = ['myPartA', 'mypartB', 'myPartC', 'myPartD'];
-const pre51g2 = ['myPartE', 'mypartF', 'myPartG', 'myPartH', 'myPartI', 'myPartJ', 'myPartK'];
+const pre51g1 = ['myPartA', 'myPartB', 'myPartC', 'myPartD'];
+const pre51g2 = ['myPartE', 'myPartF', 'myPartG', 'myPartH', 'myPartI', 'myPartJ', 'myPartK'];
 function inferDesignName(partName) {
 	const re = /_[A-Z][0-9]*$/;
 	const desiName = partName.replace(re, '');
@@ -45,7 +45,7 @@ function inferDesignName(partName) {
 	if (pre51g1.includes(desiName)) {
 		rCli = 'desi51-cli';
 		prefix = 'desi51/myGroup1/';
-	} else if (pre51g1.includes(desiName)) {
+	} else if (pre51g2.includes(desiName)) {
 		rCli = 'desi51-cli';
 		prefix = 'desi51/myGroup2/';
 	}
