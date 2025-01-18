@@ -849,6 +849,11 @@
           "val": 45,
           "init": 45,
           "chg": true
+        },
+        "extrudLength": {
+          "val": 10,
+          "init": 10,
+          "chg": false
         }
       },
       "orientation": [
