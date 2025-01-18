@@ -1,0 +1,17 @@
+{
+  "lastModif": "20250118_035052",
+  "partName": "myPartN",
+  "pVal": {
+    "D1": 10,
+    "D2": 30,
+    "D3": 60,
+    "L1": 60,
+    "AS": 3,
+    "AL": 42,
+    "RC1": 2,
+    "RC2": 2,
+    "RC3": 2,
+    "RC4": 2
+  },
+  "comment": "Written by geom_cli"
+}
