@@ -1,0 +1,16 @@
+{
+  "lastModif": "20250118_040501",
+  "partName": "myPartP",
+  "pVal": {
+    "A1": 30,
+    "B1": 30,
+    "C1": 60,
+    "A2": 60,
+    "B2": 30,
+    "C2": 30,
+    "A3": 30,
+    "B3": 60,
+    "C3": 30
+  },
+  "comment": "Written by geom_cli"
+}

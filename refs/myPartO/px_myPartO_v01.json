@@ -1,0 +1,14 @@
+{
+  "lastModif": "20250118_040501",
+  "partName": "myPartO",
+  "pVal": {
+    "L1": 40,
+    "P1X": 0,
+    "P1Y": 30,
+    "P2X": 40,
+    "P2Y": 30,
+    "A1": 60,
+    "A2": 120
+  },
+  "comment": "Written by geom_cli"
+}

@@ -1,0 +1,22 @@
+{
+  "lastModif": "20250118_040503",
+  "partName": "myPartS",
+  "pVal": {
+    "ai1": -1,
+    "ai2": -35,
+    "Li1": 120,
+    "Li2": 40,
+    "Ri1": 150,
+    "Ri2": 1000,
+    "Rai1": 15,
+    "Rai2": 8,
+    "Rqi1": 4,
+    "Rqi2": 4,
+    "He1": 20,
+    "He2": 10,
+    "Pe1": 40,
+    "Pe2": 25,
+    "pN": 10
+  },
+  "comment": "Written by geom_cli"
+}
