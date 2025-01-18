@@ -17,6 +17,9 @@ const c_Parts = {
 	myPartI: 'myPartI_v01',
 	myPartJ: 'myPartJ_v01',
 	myPartK: 'myPartK_v01',
+	myPartL: 'myPartL_v01',
+	myPartM: 'myPartM_v01',
+	myPartN: 'myPartN_v01',
 };
 
 // partName: 2D-faces
@@ -32,11 +35,15 @@ const c_svgdxf = {
 	myPartI: ['face2'],
 	myPartJ: ['face1', 'face2', 'face3'],
 	myPartK: ['faceSide1', 'faceSide2', 'faceTop'],
+	myPartL: ['face1'],
+	myPartM: ['face1'],
+	myPartN: ['face1'],
 };
 
 // partName: designName
 const pre51g1 = ['myPartA', 'myPartB', 'myPartC', 'myPartD'];
 const pre51g2 = ['myPartE', 'myPartF', 'myPartG', 'myPartH', 'myPartI', 'myPartJ', 'myPartK'];
+const pre52 = ['myPartL', 'myPartM', 'myPartN'];
 function inferDesignName(partName) {
 	const re = /_[A-Z][0-9]*$/;
 	const desiName = partName.replace(re, '');
@@ -48,6 +55,9 @@ function inferDesignName(partName) {
 	} else if (pre51g2.includes(desiName)) {
 		rCli = 'desi51-cli';
 		prefix = 'desi51/myGroup2/';
+	} else if (pre52.includes(desiName)) {
+		rCli = 'desi52-cli';
+		prefix = 'desi52/';
 	}
 	if (prefix === '') {
 		console.log(`err732: partName ${partName} not identified for any prefix`);
