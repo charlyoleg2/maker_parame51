@@ -17,7 +17,7 @@ b_myPartG_faceTransforms = [cb_myPartG_faceTransforms_000, cb_myPartG_faceTransf
 module subpax_myPartG_tf () {
 	translate( [ 0, 0, 0 ])
 		rotate( [ 0, 0, 0 ])
-			   linear_extrude(height = undefined) polygon(a_myPartG_faceTransforms, b_myPartG_faceTransforms);
+			   linear_extrude(height = 10) polygon(a_myPartG_faceTransforms, b_myPartG_faceTransforms);
 }
 
 module pax_myPartG () {

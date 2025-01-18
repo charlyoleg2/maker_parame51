@@ -129,7 +129,7 @@ fig_myPartG_faceTransforms = face_fig_myPartG_faceTransforms_Fa000;
 const subpax_myPartG_tf =
 	translate( [ 0, 0, 0, ],
 		rotate( [ 0, 0, 0, ],
-			   extrudeLinear( {height: undefined}, fig_myPartG_faceTransforms )
+			   extrudeLinear( {height: 10}, fig_myPartG_faceTransforms )
 		)
 	);
 

@@ -131,7 +131,7 @@ def myPartG_faceTransforms():
 
 def fex_subpax_myPartG_tf():
 	FIG = myPartG_faceTransforms()
-	VEX = FIG.extrude(App.Vector(0, 0, undefined))
+	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)

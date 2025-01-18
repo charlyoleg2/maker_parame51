@@ -62,6 +62,16 @@
         "step": 1,
         "dropdown": [],
         "pType": 0
+      },
+      {
+        "name": "extrudLength",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
       }
     ],
     "paramSvg": {
@@ -70,7 +80,8 @@
       "R": "myPartG_transforms.svg",
       "C": "myPartG_transforms.svg",
       "SF1": "myPartG_transforms.svg",
-      "Z1": "myPartG_transforms.svg"
+      "Z1": "myPartG_transforms.svg",
+      "extrudLength": "myPartG_transforms.svg"
     },
     "sim": {
       "tMax": 180,
@@ -84,7 +95,8 @@
     "R": 10,
     "C": 100,
     "SF1": 2,
-    "Z1": 45
+    "Z1": 45,
+    "extrudLength": 10
   },
   "figures": {
     "faceTransforms": [
@@ -293,6 +305,7 @@
         "outName": "subpax_myPartG_tf",
         "face": "myPartG_faceTransforms",
         "extrudeMethod": 0,
+        "length": 10,
         "rotate": [
           0,
           0,
