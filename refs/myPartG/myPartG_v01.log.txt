@@ -1,0 +1,3 @@
+myPartG simTime: 0
+myPartG size horizontal: 900.00 mm, vertical: 1000.00 mm
+myPartG drawn successfully!

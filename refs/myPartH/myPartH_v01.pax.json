@@ -1,0 +1,336 @@
+{
+  "partName": "myPartH",
+  "pDef": {
+    "partName": "myPartH",
+    "params": [
+      {
+        "name": "A1",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A2",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A3",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N1",
+        "unit": "N",
+        "init": 3,
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N2",
+        "unit": "N",
+        "init": 3,
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "B",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "SF1",
+        "unit": "1.0",
+        "init": 1.2,
+        "min": 0.5,
+        "max": 2,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "A1": "myPartH_circle.svg",
+      "A2": "myPartH_circle.svg",
+      "A3": "myPartH_circle.svg",
+      "N1": "myPartH_circle.svg",
+      "N2": "myPartH_line.svg",
+      "B": "myPartH_line.svg",
+      "SF1": "myPartH_line.svg",
+      "E": "myPartH_line.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "A1": 60,
+    "A2": 100,
+    "A3": 60,
+    "N1": 3,
+    "N2": 3,
+    "B": 40,
+    "SF1": 1.2,
+    "E": 10
+  },
+  "figures": {
+    "faceCircle": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 298.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 298.4,
+              "py": -100
+            },
+            {
+              "typ": 1,
+              "px": 328.4,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 358.4,
+              "py": -100
+            },
+            {
+              "typ": 1,
+              "px": 358.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 445.0025403784439,
+              "py": 49.999999999999986
+            },
+            {
+              "typ": 1,
+              "px": 378.04101615137756,
+              "py": 45.98076211353315
+            },
+            {
+              "typ": 1,
+              "px": 415.0025403784439,
+              "py": 101.9615242270663
+            },
+            {
+              "typ": 1,
+              "px": 328.4,
+              "py": 51.96152422706632
+            },
+            {
+              "typ": 1,
+              "px": 241.79745962155613,
+              "py": 101.96152422706635
+            },
+            {
+              "typ": 1,
+              "px": 278.75898384862245,
+              "py": 45.98076211353319
+            },
+            {
+              "typ": 1,
+              "px": 211.79745962155613,
+              "py": 50.00000000000006
+            },
+            {
+              "typ": 1,
+              "px": 298.4,
+              "py": 1.4210854715202004e-14
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLine": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": -110
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": -50
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": -110
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 100.00000000000001,
+              "py": -130
+            },
+            {
+              "typ": 1,
+              "px": 136,
+              "py": -57.99999999999999
+            },
+            {
+              "typ": 1,
+              "px": 172,
+              "py": -130
+            },
+            {
+              "typ": 1,
+              "px": 172,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 212,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 212,
+              "py": -154
+            },
+            {
+              "typ": 1,
+              "px": 255.2,
+              "py": -67.6
+            },
+            {
+              "typ": 1,
+              "px": 298.4,
+              "py": -154
+            },
+            {
+              "typ": 1,
+              "px": 298.4,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 298.4,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartH_circle",
+        "face": "myPartH_faceCircle",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartH_line",
+        "face": "myPartH_faceLine",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartH",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_myPartH_circle",
+          "subpax_myPartH_line"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartH simTime: 0\nmyPartH line size: 298.40 mm\nmyPartH drawn successfully!\n"
+}

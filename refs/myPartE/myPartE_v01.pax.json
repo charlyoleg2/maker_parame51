@@ -1,0 +1,494 @@
+{
+  "partName": "myPartE",
+  "pDef": {
+    "partName": "myPartE",
+    "params": [
+      {
+        "name": "N1",
+        "unit": "N",
+        "init": 8,
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 20,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A",
+        "unit": "mm",
+        "init": 10,
+        "min": 5,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "B",
+        "unit": "mm",
+        "init": 20,
+        "min": 5,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N2",
+        "unit": "N",
+        "init": 8,
+        "min": 3,
+        "max": 24,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 80,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S",
+        "unit": "mm",
+        "init": 20,
+        "min": 10,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "N1": "myPartE_cartesian.svg",
+      "H1": "myPartE_cartesian.svg",
+      "H2": "myPartE_cartesian.svg",
+      "A": "myPartE_cartesian.svg",
+      "B": "myPartE_cartesian.svg",
+      "N2": "myPartE_polarAbsolute.svg",
+      "D1": "myPartE_polarAbsolute.svg",
+      "D2": "myPartE_polarAbsolute.svg",
+      "S": "myPartE_polarRelative.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "N1": 8,
+    "H1": 40,
+    "H2": 20,
+    "A": 10,
+    "B": 20,
+    "N2": 8,
+    "D1": 40,
+    "D2": 80,
+    "S": 20
+  },
+  "figures": {
+    "faceCartesian": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 70,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 80,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 90,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 110,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 120,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 130,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 150,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 160,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 170,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 180,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 190,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 210,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 220,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 230,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 240,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePolarAbs": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 28.284271247461902,
+              "py": 28.2842712474619
+            },
+            {
+              "typ": 1,
+              "px": 14.142135623730951,
+              "py": 14.14213562373095
+            },
+            {
+              "typ": 1,
+              "px": 2.4492935982947065e-15,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 1.2246467991473533e-15,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": -28.2842712474619,
+              "py": 28.284271247461902
+            },
+            {
+              "typ": 1,
+              "px": -14.14213562373095,
+              "py": 14.142135623730951
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 4.898587196589413e-15
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 2.4492935982947065e-15
+            },
+            {
+              "typ": 1,
+              "px": -28.28427124746191,
+              "py": -28.2842712474619
+            },
+            {
+              "typ": 1,
+              "px": -14.142135623730955,
+              "py": -14.14213562373095
+            },
+            {
+              "typ": 1,
+              "px": -7.347880794884118e-15,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": -3.673940397442059e-15,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 28.284271247461895,
+              "py": -28.28427124746191
+            },
+            {
+              "typ": 1,
+              "px": 14.142135623730947,
+              "py": -14.142135623730955
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePolarRel": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 10.000000000000002,
+              "py": 17.32050807568877
+            },
+            {
+              "typ": 1,
+              "px": 25.32088886237956,
+              "py": 30.176260269419558
+            },
+            {
+              "typ": 1,
+              "px": 44.11474127809773,
+              "py": 37.01666313593293
+            },
+            {
+              "typ": 1,
+              "px": 64.11474127809774,
+              "py": 37.01666313593293
+            },
+            {
+              "typ": 1,
+              "px": 82.9085936938159,
+              "py": 30.176260269419558
+            },
+            {
+              "typ": 1,
+              "px": 98.22948255619546,
+              "py": 17.32050807568877
+            },
+            {
+              "typ": 1,
+              "px": 108.22948255619546,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartE_cartesian",
+        "face": "myPartE_faceCartesian",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartE_polarAbs",
+        "face": "myPartE_facePolarAbs",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          100
+        ]
+      },
+      {
+        "outName": "subpax_myPartE_polarRel",
+        "face": "myPartE_facePolarRel",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          200
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartE",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_myPartE_cartesian",
+          "subpax_myPartE_polarAbs",
+          "subpax_myPartE_polarRel"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartE simTime: 0\nmyPartE-size1: 250.00 mm\nmyPartE-size2: 80.00 mm\nmyPartE-size3: 108.23 mm\nmyPartE drawn successfully!\n"
+}

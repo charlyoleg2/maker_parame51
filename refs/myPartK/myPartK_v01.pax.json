@@ -1,0 +1,4479 @@
+{
+  "partName": "myPartK",
+  "pDef": {
+    "partName": "myPartK",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D4",
+        "unit": "mm",
+        "init": 80,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 30,
+        "min": -200,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 30,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartK_face.svg",
+      "D2": "myPartK_face.svg",
+      "D3": "myPartK_top.svg",
+      "D4": "myPartK_top.svg",
+      "H1": "myPartK_face.svg",
+      "L1": "myPartK_top.svg",
+      "L2": "myPartK_top.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 60,
+    "D2": 40,
+    "D3": 100,
+    "D4": 80,
+    "H1": 30,
+    "L1": 30,
+    "L2": 30
+  },
+  "figures": {
+    "faceSide1": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 30,
+          "radius": 30
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 30,
+          "radius": 20
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -110,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 50.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 40.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 50
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 140,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 110.00000000000001,
+              "py": 50.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 110,
+              "py": 40.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 50
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide2": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 50
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 40
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -110,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 60
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 140,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 110,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 110,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 60
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -110,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 50.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -140,
+              "py": 40.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -110,
+              "py": 50
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 140,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 110.00000000000001,
+              "py": 50.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 110,
+              "py": 40.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 140,
+              "py": 50
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 30,
+              "py": 110
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 140
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 140
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 110
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 110
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 30,
+              "py": -140
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": -110
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": -110
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": -140
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": -140
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "inherits": [
+      {
+        "outName": "inpax_myPartK_A11",
+        "subdesign": "pax_myPartAref1",
+        "subgeom": {
+          "partName": "myPartAref1",
+          "calcErr": false,
+          "logstr": "myPartAref1 simTime: 0\nmyPartA-length: 30.00 mm\nmyPartA-external-diameter: 60.00 mm\nmyPartA-internal-diameter: 40.00 mm\nmyPartA drawn successfully!\n",
+          "fig": {
+            "faceSection": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.83697019872103e-15,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 3.67394039744206e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -5.510910596163089e-15,
+                  "cy": -30,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.2246467991473533e-15,
+                  "cy": 20,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 2.4492935982947065e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -3.673940397442059e-15,
+                  "cy": -20,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 30,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 20,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 30,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 20,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [],
+              "secondBList": [],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceSide": {
+              "pointList": [
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": false,
+                    "segments": [
+                      {
+                        "sType": 6,
+                        "px": 30,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 30,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 20,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 20,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 30,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      }
+                    ],
+                    "points": [],
+                    "debugPoints": [],
+                    "debugLines": [],
+                    "lastPoint": {
+                      "cx": 30,
+                      "cy": 0,
+                      "shape": 0
+                    },
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": 30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": 30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            }
+          },
+          "vol": {
+            "extrudes": [
+              {
+                "outName": "subpax_myPartAref1",
+                "face": "myPartAref1_faceSection",
+                "extrudeMethod": 0,
+                "length": 30,
+                "rotate": [
+                  0,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "volumes": [
+              {
+                "outName": "pax_myPartAref1",
+                "boolMethod": 0,
+                "inList": [
+                  "subpax_myPartAref1"
+                ]
+              }
+            ]
+          },
+          "sub": {}
+        },
+        "rotate": [
+          -1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -140,
+          30
+        ]
+      },
+      {
+        "outName": "inpax_myPartK_A12",
+        "subdesign": "pax_myPartAref1",
+        "subgeom": {
+          "partName": "myPartAref1",
+          "calcErr": false,
+          "logstr": "myPartAref1 simTime: 0\nmyPartA-length: 30.00 mm\nmyPartA-external-diameter: 60.00 mm\nmyPartA-internal-diameter: 40.00 mm\nmyPartA drawn successfully!\n",
+          "fig": {
+            "faceSection": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.83697019872103e-15,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 3.67394039744206e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -5.510910596163089e-15,
+                  "cy": -30,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.2246467991473533e-15,
+                  "cy": 20,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 2.4492935982947065e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -3.673940397442059e-15,
+                  "cy": -20,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 30,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 20,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 30,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 20,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [],
+              "secondBList": [],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceSide": {
+              "pointList": [
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 0,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": false,
+                    "segments": [
+                      {
+                        "sType": 6,
+                        "px": 30,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 30,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 20,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 20,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 30,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      }
+                    ],
+                    "points": [],
+                    "debugPoints": [],
+                    "debugLines": [],
+                    "lastPoint": {
+                      "cx": 30,
+                      "cy": 0,
+                      "shape": 0
+                    },
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": 30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": 30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            }
+          },
+          "vol": {
+            "extrudes": [
+              {
+                "outName": "subpax_myPartAref1",
+                "face": "myPartAref1_faceSection",
+                "extrudeMethod": 0,
+                "length": 30,
+                "rotate": [
+                  0,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "volumes": [
+              {
+                "outName": "pax_myPartAref1",
+                "boolMethod": 0,
+                "inList": [
+                  "subpax_myPartAref1"
+                ]
+              }
+            ]
+          },
+          "sub": {}
+        },
+        "rotate": [
+          -1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          110,
+          30
+        ]
+      },
+      {
+        "outName": "inpax_myPartK_A21",
+        "subdesign": "pax_myPartAref2",
+        "subgeom": {
+          "partName": "myPartAref2",
+          "calcErr": false,
+          "logstr": "myPartAref2 simTime: 0\nmyPartA-length: 30.00 mm\nmyPartA-external-diameter: 100.00 mm\nmyPartA-internal-diameter: 80.00 mm\nmyPartA drawn successfully!\n",
+          "fig": {
+            "faceSection": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 3.061616997868383e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 6.123233995736766e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -9.184850993605149e-15,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 2.4492935982947065e-15,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 4.898587196589413e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -7.347880794884118e-15,
+                  "cy": -40,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 50,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 40,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 50,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 40,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [],
+              "secondBList": [],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceSide": {
+              "pointList": [
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": false,
+                    "segments": [
+                      {
+                        "sType": 6,
+                        "px": 50,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 50,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 40,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 40,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 50,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      }
+                    ],
+                    "points": [],
+                    "debugPoints": [],
+                    "debugLines": [],
+                    "lastPoint": {
+                      "cx": 50,
+                      "cy": 0,
+                      "shape": 0
+                    },
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": 50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": 50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            }
+          },
+          "vol": {
+            "extrudes": [
+              {
+                "outName": "subpax_myPartAref2",
+                "face": "myPartAref2_faceSection",
+                "extrudeMethod": 0,
+                "length": 30,
+                "rotate": [
+                  0,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "volumes": [
+              {
+                "outName": "pax_myPartAref2",
+                "boolMethod": 0,
+                "inList": [
+                  "subpax_myPartAref2"
+                ]
+              }
+            ]
+          },
+          "sub": {}
+        },
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          -140,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "inpax_myPartK_A22",
+        "subdesign": "pax_myPartAref2",
+        "subgeom": {
+          "partName": "myPartAref2",
+          "calcErr": false,
+          "logstr": "myPartAref2 simTime: 0\nmyPartA-length: 30.00 mm\nmyPartA-external-diameter: 100.00 mm\nmyPartA-internal-diameter: 80.00 mm\nmyPartA drawn successfully!\n",
+          "fig": {
+            "faceSection": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 3.061616997868383e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 6.123233995736766e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -9.184850993605149e-15,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 2.4492935982947065e-15,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 4.898587196589413e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -7.347880794884118e-15,
+                  "cy": -40,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 50,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 40,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 50,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 40,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [],
+              "secondBList": [],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceSide": {
+              "pointList": [
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 0,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": false,
+                    "segments": [
+                      {
+                        "sType": 6,
+                        "px": 50,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 50,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 40,
+                        "py": 30,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 40,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      },
+                      {
+                        "sType": 0,
+                        "px": 50,
+                        "py": 0,
+                        "radius": 0,
+                        "arcLarge": false,
+                        "arcCcw": false
+                      }
+                    ],
+                    "points": [],
+                    "debugPoints": [],
+                    "debugLines": [],
+                    "lastPoint": {
+                      "cx": 50,
+                      "cy": 0,
+                      "shape": 0
+                    },
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": 50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": 50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -40,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 30,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -50,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            }
+          },
+          "vol": {
+            "extrudes": [
+              {
+                "outName": "subpax_myPartAref2",
+                "face": "myPartAref2_faceSection",
+                "extrudeMethod": 0,
+                "length": 30,
+                "rotate": [
+                  0,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "volumes": [
+              {
+                "outName": "pax_myPartAref2",
+                "boolMethod": 0,
+                "inList": [
+                  "subpax_myPartAref2"
+                ]
+              }
+            ]
+          },
+          "sub": {}
+        },
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          110,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "inpax_myPartK_cross",
+        "subdesign": "pax_myPartD",
+        "subgeom": {
+          "partName": "myPartD",
+          "calcErr": false,
+          "logstr": "myPartD simTime: 0\nmyPartD-size: 160.00 x 160.00 x 110.00 mm\nmyPartD drawn successfully!\n",
+          "fig": {
+            "faceTube1": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.83697019872103e-15,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 30.000000000000004,
+                  "shape": 0
+                },
+                {
+                  "cx": -5.510910596163089e-15,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.2246467991473533e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 30.000000000000004,
+                  "shape": 0
+                },
+                {
+                  "cx": -3.673940397442059e-15,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 30,
+                    "radius": 30,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 30,
+                    "radius": 20,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 30,
+                  "radius": 30,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 30,
+                  "radius": 20,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceTube2": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 3.061616997868383e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 6.123233995736766e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -9.184850993605149e-15,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 2.4492935982947065e-15,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 4.898587196589413e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -7.347880794884118e-15,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 50,
+                    "imposedColor": ""
+                  },
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 40,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 50,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 40,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceTube1H": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.83697019872103e-15,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 30.000000000000004,
+                  "shape": 0
+                },
+                {
+                  "cx": -5.510910596163089e-15,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 30,
+                  "shape": 0
+                },
+                {
+                  "cx": 1.2246467991473533e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 30.000000000000004,
+                  "shape": 0
+                },
+                {
+                  "cx": -3.673940397442059e-15,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 30,
+                    "radius": 20,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 30,
+                  "radius": 20,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 30,
+                  "radius": 30,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 30,
+                  "radius": 30,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceTube2H": {
+              "pointList": [
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 50,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 3.061616997868383e-15,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -50,
+                  "cy": 6.123233995736766e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -9.184850993605149e-15,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 0,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 40,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 2.4492935982947065e-15,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -40,
+                  "cy": 4.898587196589413e-15,
+                  "shape": 0
+                },
+                {
+                  "cx": -7.347880794884118e-15,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 60,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 0,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 10,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 10,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [
+                [
+                  {
+                    "circle": true,
+                    "px": 0,
+                    "py": 0,
+                    "radius": 40,
+                    "imposedColor": ""
+                  }
+                ]
+              ],
+              "mainBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 40,
+                  "imposedColor": ""
+                }
+              ],
+              "secondList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 50,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": true,
+                  "px": 0,
+                  "py": 0,
+                  "radius": 50,
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 60,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 0,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 10,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            },
+            "faceTop": {
+              "pointList": [
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -50,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": 80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": 40,
+                  "shape": 0
+                },
+                {
+                  "cx": -80,
+                  "cy": -40,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": 30,
+                  "cy": 80,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": 80,
+                  "shape": 0
+                },
+                {
+                  "cx": -30,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": -80,
+                  "shape": 0
+                },
+                {
+                  "cx": 20,
+                  "cy": 80,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": 80,
+                  "shape": 0
+                },
+                {
+                  "cx": -20,
+                  "cy": -80,
+                  "shape": 0
+                }
+              ],
+              "lineList": [],
+              "vectorList": [],
+              "mainList": [],
+              "mainBList": [],
+              "secondList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": -80,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -20,
+                    "cy": -80,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "secondBList": [
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -50,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": 40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -80,
+                      "py": -40,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 30,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -30,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -30,
+                    "cy": -80,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                },
+                {
+                  "circle": false,
+                  "segments": [
+                    {
+                      "sType": 6,
+                      "px": -20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": 20,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": 80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    },
+                    {
+                      "sType": 0,
+                      "px": -20,
+                      "py": -80,
+                      "radius": 0,
+                      "arcLarge": false,
+                      "arcCcw": false
+                    }
+                  ],
+                  "points": [],
+                  "debugPoints": [],
+                  "debugLines": [],
+                  "lastPoint": {
+                    "cx": -20,
+                    "cy": -80,
+                    "shape": 0
+                  },
+                  "imposedColor": ""
+                }
+              ],
+              "dynamicsList": [],
+              "xMin": 0,
+              "xMax": 0,
+              "yMin": 0,
+              "yMax": 0
+            }
+          },
+          "vol": {
+            "extrudes": [
+              {
+                "outName": "subpax_myPartD_tube1",
+                "face": "myPartD_faceTube1",
+                "extrudeMethod": 0,
+                "length": 160,
+                "rotate": [
+                  -1.5707963267948966,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  -80,
+                  60
+                ]
+              },
+              {
+                "outName": "subpax_myPartD_tube1H",
+                "face": "myPartD_faceTube1H",
+                "extrudeMethod": 0,
+                "length": 160,
+                "rotate": [
+                  -1.5707963267948966,
+                  0,
+                  0
+                ],
+                "translate": [
+                  0,
+                  -80,
+                  60
+                ]
+              },
+              {
+                "outName": "subpax_myPartD_tube2",
+                "face": "myPartD_faceTube2",
+                "extrudeMethod": 0,
+                "length": 160,
+                "rotate": [
+                  0,
+                  1.5707963267948966,
+                  0
+                ],
+                "translate": [
+                  -80,
+                  0,
+                  0
+                ]
+              },
+              {
+                "outName": "subpax_myPartD_tube2H",
+                "face": "myPartD_faceTube2H",
+                "extrudeMethod": 0,
+                "length": 160,
+                "rotate": [
+                  0,
+                  1.5707963267948966,
+                  0
+                ],
+                "translate": [
+                  -80,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "volumes": [
+              {
+                "outName": "ipax_myPartD_addi",
+                "boolMethod": 2,
+                "inList": [
+                  "subpax_myPartD_tube1",
+                  "subpax_myPartD_tube2"
+                ]
+              },
+              {
+                "outName": "ipax_myPartD_subs",
+                "boolMethod": 2,
+                "inList": [
+                  "subpax_myPartD_tube1H",
+                  "subpax_myPartD_tube2H"
+                ]
+              },
+              {
+                "outName": "pax_myPartD",
+                "boolMethod": 3,
+                "inList": [
+                  "ipax_myPartD_addi",
+                  "ipax_myPartD_subs"
+                ]
+              }
+            ]
+          },
+          "sub": {}
+        },
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "extrudes": [],
+    "volumes": [
+      {
+        "outName": "pax_myPartK",
+        "boolMethod": 2,
+        "inList": [
+          "inpax_myPartK_A11",
+          "inpax_myPartK_A12",
+          "inpax_myPartK_A21",
+          "inpax_myPartK_A22",
+          "inpax_myPartK_cross"
+        ]
+      }
+    ]
+  },
+  "subs": {
+    "myPartA_1": {
+      "partName": "myPartA",
+      "dparam": {
+        "D1": {
+          "val": 60,
+          "init": 40,
+          "chg": true
+        },
+        "E1": {
+          "val": 10,
+          "init": 3,
+          "chg": true
+        },
+        "L1": {
+          "val": 30,
+          "init": 50,
+          "chg": true
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "myPartA_2": {
+      "partName": "myPartA",
+      "dparam": {
+        "D1": {
+          "val": 100,
+          "init": 40,
+          "chg": true
+        },
+        "E1": {
+          "val": 10,
+          "init": 3,
+          "chg": true
+        },
+        "L1": {
+          "val": 30,
+          "init": 50,
+          "chg": true
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "myPartD_1": {
+      "partName": "myPartD",
+      "dparam": {
+        "D1": {
+          "val": 60,
+          "init": 60,
+          "chg": true
+        },
+        "D2": {
+          "val": 40,
+          "init": 40,
+          "chg": true
+        },
+        "D3": {
+          "val": 100,
+          "init": 100,
+          "chg": true
+        },
+        "D4": {
+          "val": 80,
+          "init": 80,
+          "chg": true
+        },
+        "H1": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "log": "myPartK simTime: 0\nmyPartK-size: 280.00 x 280.00 x 110.00 mm\n[myPartD]: myPartD simTime: 0\n[myPartD]: myPartD-size: 160.00 x 160.00 x 110.00 mm\n[myPartD]: myPartD drawn successfully!\n[myPartAref1]: myPartAref1 simTime: 0\n[myPartAref1]: myPartA-length: 30.00 mm\n[myPartAref1]: myPartA-external-diameter: 60.00 mm\n[myPartAref1]: myPartA-internal-diameter: 40.00 mm\n[myPartAref1]: myPartA drawn successfully!\n[myPartAref2]: myPartAref2 simTime: 0\n[myPartAref2]: myPartA-length: 30.00 mm\n[myPartAref2]: myPartA-external-diameter: 100.00 mm\n[myPartAref2]: myPartA-internal-diameter: 80.00 mm\n[myPartAref2]: myPartA drawn successfully!\nmyPartK drawn successfully!\n"
+}

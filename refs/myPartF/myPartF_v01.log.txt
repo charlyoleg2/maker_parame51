@@ -1,0 +1,3 @@
+myPartF simTime: 0
+myPartF intermediate distance horizontal: 33.33 mm, vertical: 20.00 mm
+myPartF drawn successfully!

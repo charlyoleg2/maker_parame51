@@ -1,0 +1,379 @@
+{
+  "partName": "myPartC",
+  "pDef": {
+    "partName": "myPartC",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 100,
+        "min": 20,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D4",
+        "unit": "mm",
+        "init": 50,
+        "min": 20,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L3",
+        "unit": "mm",
+        "init": 20,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L4",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartC_side.svg",
+      "D2": "myPartC_side.svg",
+      "D3": "myPartC_top.svg",
+      "D4": "myPartC_top.svg",
+      "L1": "myPartC_cut.svg",
+      "L2": "myPartC_cut.svg",
+      "L3": "myPartC_cut.svg",
+      "L4": "myPartC_cut.svg",
+      "H1": "myPartC_cut.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 40,
+    "D2": 100,
+    "D3": 30,
+    "D4": 50,
+    "L1": 100,
+    "L2": 100,
+    "L3": 20,
+    "L4": 40,
+    "H1": 50
+  },
+  "figures": {
+    "faceBodyCut": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 180
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBodySlant": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBodyHollow": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -50,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 180
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 200
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceChimney": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 75,
+          "radius": 25
+        }
+      ]
+    ],
+    "faceChimneyHollow": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 75,
+          "radius": 15
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartC_bodyRaw",
+        "face": "myPartC_faceBodyCut",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartC_bodySlant",
+        "face": "myPartC_faceBodySlant",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          50,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartC_bodyH",
+        "face": "myPartC_faceBodyHollow",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartC_chimney",
+        "face": "myPartC_faceChimney",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartC_chimneyH",
+        "face": "myPartC_faceChimneyHollow",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "ipax_myPartC_body1",
+        "boolMethod": 1,
+        "inList": [
+          "subpax_myPartC_bodyRaw",
+          "subpax_myPartC_bodySlant"
+        ]
+      },
+      {
+        "outName": "ipax_myPartC_body2",
+        "boolMethod": 2,
+        "inList": [
+          "ipax_myPartC_body1",
+          "subpax_myPartC_chimney"
+        ]
+      },
+      {
+        "outName": "ipax_myPartC_hollow",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_myPartC_bodyH",
+          "subpax_myPartC_chimneyH"
+        ]
+      },
+      {
+        "outName": "ipax_myPartC_body3",
+        "boolMethod": 3,
+        "inList": [
+          "ipax_myPartC_body2",
+          "ipax_myPartC_hollow"
+        ]
+      },
+      {
+        "outName": "pax_myPartC",
+        "boolMethod": 0,
+        "inList": [
+          "ipax_myPartC_body3"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartC simTime: 0\nmyPartC-length: 200.00 mm\nmyPartC-height: 150.00 mm\nmyPartC drawn successfully!\n"
+}

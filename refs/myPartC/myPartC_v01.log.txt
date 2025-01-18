@@ -1,0 +1,4 @@
+myPartC simTime: 0
+myPartC-length: 200.00 mm
+myPartC-height: 150.00 mm
+myPartC drawn successfully!

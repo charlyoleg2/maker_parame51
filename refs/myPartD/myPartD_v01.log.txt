@@ -1,0 +1,3 @@
+myPartD simTime: 0
+myPartD-size: 160.00 x 160.00 x 110.00 mm
+myPartD drawn successfully!

@@ -1,0 +1,12 @@
+myPartJ simTime: 0
+myPartJ size: 900.00 x 560.00 x 1000.00 mm
+[myPartF]: myPartF simTime: 0
+[myPartF]: myPartF intermediate distance horizontal: 100.00 mm, vertical: 130.00 mm
+[myPartF]: myPartF drawn successfully!
+[myPartG]: myPartG simTime: 0
+[myPartG]: myPartG size horizontal: 900.00 mm, vertical: 1000.00 mm
+[myPartG]: myPartG drawn successfully!
+[myPartI]: myPartI simTime: 0
+[myPartI]: myPartI size: 1000.00 x 560.00 mm
+[myPartI]: myPartI drawn successfully!
+myPartJ drawn successfully!

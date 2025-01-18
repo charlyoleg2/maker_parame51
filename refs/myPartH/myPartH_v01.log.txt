@@ -1,0 +1,3 @@
+myPartH simTime: 0
+myPartH line size: 298.40 mm
+myPartH drawn successfully!

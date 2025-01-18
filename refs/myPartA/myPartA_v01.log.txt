@@ -1,0 +1,5 @@
+myPartA simTime: 0
+myPartA-length: 50.00 mm
+myPartA-external-diameter: 40.00 mm
+myPartA-internal-diameter: 34.00 mm
+myPartA drawn successfully!

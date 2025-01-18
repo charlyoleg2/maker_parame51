@@ -1,0 +1,16 @@
+myPartK simTime: 0
+myPartK-size: 280.00 x 280.00 x 110.00 mm
+[myPartD]: myPartD simTime: 0
+[myPartD]: myPartD-size: 160.00 x 160.00 x 110.00 mm
+[myPartD]: myPartD drawn successfully!
+[myPartAref1]: myPartAref1 simTime: 0
+[myPartAref1]: myPartA-length: 30.00 mm
+[myPartAref1]: myPartA-external-diameter: 60.00 mm
+[myPartAref1]: myPartA-internal-diameter: 40.00 mm
+[myPartAref1]: myPartA drawn successfully!
+[myPartAref2]: myPartAref2 simTime: 0
+[myPartAref2]: myPartA-length: 30.00 mm
+[myPartAref2]: myPartA-external-diameter: 100.00 mm
+[myPartAref2]: myPartA-internal-diameter: 80.00 mm
+[myPartAref2]: myPartA drawn successfully!
+myPartK drawn successfully!

@@ -1,0 +1,3 @@
+myPartB simTime: 0
+myPartB-length: 60.00 mm
+myPartB drawn successfully!

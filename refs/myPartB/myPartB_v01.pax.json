@@ -1,0 +1,181 @@
+{
+  "partName": "myPartB",
+  "pDef": {
+    "partName": "myPartB",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "extShape",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "circle",
+          "triangle-up",
+          "triangle-down"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 200,
+        "step": 5,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Inner hollow",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "hollow",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "intShape",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "straight",
+          "slanted"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "myPartB_side.svg",
+      "extShape": "myPartB_front.svg",
+      "D1": "myPartB_front.svg",
+      "hollow": "myPartB_hollow.svg",
+      "intShape": "myPartB_hollow_shape.svg",
+      "S1": "myPartB_hollow_shape.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 60,
+    "extShape": 0,
+    "D1": 50,
+    "Inner hollow": 0,
+    "hollow": 1,
+    "intShape": 0,
+    "S1": 20
+  },
+  "figures": {
+    "faceFront": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 25
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -10,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": -10
+            },
+            {
+              "typ": 1,
+              "px": 10,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": -10,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": -10,
+              "py": -10
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": []
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartB",
+        "face": "myPartB_faceFront",
+        "extrudeMethod": 0,
+        "length": 60,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartB",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartB"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartB simTime: 0\nmyPartB-length: 60.00 mm\nmyPartB drawn successfully!\n"
+}

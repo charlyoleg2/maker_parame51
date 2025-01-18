@@ -1,0 +1,203 @@
+{
+  "partName": "myPartI",
+  "pDef": {
+    "partName": "myPartI",
+    "params": [
+      {
+        "name": "A",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "B",
+        "unit": "mm",
+        "init": 20,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R1",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "A": "myPartI_face.svg",
+      "B": "myPartI_face.svg",
+      "R1": "myPartI_face.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "A": 30,
+    "B": 20,
+    "R1": 10
+  },
+  "figures": {
+    "face2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1.4210854715202004e-14,
+              "py": -1.4210854715202004e-14
+            },
+            {
+              "typ": 1,
+              "px": 180,
+              "py": 7.105427357601002e-15
+            },
+            {
+              "typ": 1,
+              "px": 180,
+              "py": 70
+            },
+            {
+              "typ": 2,
+              "px": 170,
+              "py": 80,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.4210854715202004e-14,
+              "py": 80.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 1.4210854715202004e-14,
+              "py": -1.4210854715202004e-14
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 30,
+              "py": 19.999999999999996
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 45.00000000000001,
+              "py": 60.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 19.999999999999996
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 105,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 75,
+              "py": 60.00000000000001
+            },
+            {
+              "typ": 1,
+              "px": 90,
+              "py": 20.000000000000007
+            },
+            {
+              "typ": 1,
+              "px": 105,
+              "py": 60
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 120,
+              "py": 20.000000000000004
+            },
+            {
+              "typ": 1,
+              "px": 150,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 135,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 120,
+              "py": 20.000000000000004
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartI_2",
+        "face": "myPartI_face2",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartI",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartI_2"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartI simTime: 0\nmyPartI size: 180.00 x 80.00 mm\nmyPartI drawn successfully!\n"
+}

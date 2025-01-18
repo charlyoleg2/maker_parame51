@@ -1,0 +1,5 @@
+myPartE simTime: 0
+myPartE-size1: 250.00 mm
+myPartE-size2: 80.00 mm
+myPartE-size3: 108.23 mm
+myPartE drawn successfully!

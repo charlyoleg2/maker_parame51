@@ -1,0 +1,136 @@
+{
+  "partName": "myPartA",
+  "pDef": {
+    "partName": "myPartA",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 100,
+        "step": 2,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 200,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartA_section.svg",
+      "E1": "myPartA_section.svg",
+      "L1": "myPartA_side.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 40,
+    "E1": 3,
+    "L1": 50
+  },
+  "figures": {
+    "faceSection": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 17
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 17,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 17,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartA",
+        "face": "myPartA_faceSection",
+        "extrudeMethod": 0,
+        "length": 50,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartA",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartA"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartA simTime: 0\nmyPartA-length: 50.00 mm\nmyPartA-external-diameter: 40.00 mm\nmyPartA-internal-diameter: 34.00 mm\nmyPartA drawn successfully!\n"
+}
