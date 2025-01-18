@@ -1,5 +1,5 @@
 {
-  "lastModif": "20250118_033635",
+  "lastModif": "20250118_043335",
   "partName": "myPartG",
   "pVal": {
     "A": 100,
@@ -7,7 +7,8 @@
     "R": 10,
     "C": 100,
     "SF1": 2,
-    "Z1": 45
+    "Z1": 45,
+    "extrudLength": 10
   },
   "comment": "Written by geom_cli"
 }
