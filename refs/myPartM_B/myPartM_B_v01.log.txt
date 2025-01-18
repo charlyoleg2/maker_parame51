@@ -1,0 +1,3 @@
+myPartM simTime: 0
+myPartM: aL12 27.66 degree
+myPartM drawn successfully!
