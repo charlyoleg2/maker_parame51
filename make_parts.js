@@ -4,50 +4,85 @@
 import { exec } from "child_process";
 import { promisify } from 'util';
 
+// partName: fileName
 const c_Parts = {
-	doorstop: 'doorstop_v01',
-	pencil_holder: 'pencil_holder_v01',
-	spiral: 'spiral_v01'
+	myPartA: 'myPartA_v01',
+	myPartB: 'myPartB_v01',
+	myPartC: 'myPartC_v01',
+	myPartD: 'myPartD_v01',
+	myPartE: 'myPartE_v01',
+	myPartF: 'myPartF_v01',
+	myPartG: 'myPartG_v01',
+	myPartH: 'myPartH_v01',
+	myPartI: 'myPartI_v01',
+	myPartJ: 'myPartJ_v01',
+	myPartK: 'myPartK_v01',
 };
 
+// partName: 2D-faces
 const c_svgdxf = {
-	doorstop: ['faceProfile', 'faceTop', 'faceSide'],
-	pencil_holder: ['faceTop', 'faceFace', 'faceSide'],
-	spiral: ['faceTop', 'faceSide']
+	myPartA: ['faceSection', 'faceSide'],
+	myPartB: ['faceFront', 'faceSide'],
+	myPartC: ['faceBodyCut', 'faceBodySlant', 'faceChimneyHollow', 'faceChimney', 'faceChimneyHollow'],
+	myPartD: ['faceTube1', 'faceTube2', 'faceTube1H', 'faceTube2H', 'faceTop'],
+	myPartE: ['faceCartesian', 'facePolarAbs', 'facePolarRel'],
+	myPartF: ['faceCorners'],
+	myPartG: ['faceTransforms'],
+	myPartH: ['faceCircle', 'faceLine'],
+	myPartI: ['face2'],
+	myPartJ: ['face1', 'face2', 'face3'],
+	myPartK: ['faceSide1', 'faceSide2', 'faceTop'],
 };
 
-function inferDesignName(instanceName) {
+// partName: designName
+const pre51g1 = ['myPartA', 'mypartB', 'myPartC', 'myPartD'];
+const pre51g2 = ['myPartE', 'mypartF', 'myPartG', 'myPartH', 'myPartI', 'myPartJ', 'myPartK'];
+function inferDesignName(partName) {
 	const re = /_[A-Z][0-9]*$/;
-	const rDesignName = instanceName.replace(re, '');
-	return rDesignName
+	const desiName = partName.replace(re, '');
+	let rCli = '';
+	let prefix = '';
+	if (pre51g1.includes(desiName)) {
+		rCli = 'desi51-cli';
+		prefix = 'desi51/myGroup1/';
+	} else if (pre51g1.includes(desiName)) {
+		rCli = 'desi51-cli';
+		prefix = 'desi51/myGroup2/';
+	}
+	if (prefix === '') {
+		console.log(`err732: partName ${partName} not identified for any prefix`);
+		process.exit(1);
+	}
+	const rDesignName = `${prefix}${desiName}`;
+	return [rCli, rDesignName];
 }
 
 function getCmd(dName, fName) {
-	const desiName = inferDesignName(dName);
+	const [cli, desiName] = inferDesignName(dName);
 	console.log(`info456: reference name: ${dName}   design name: ${desiName}`);
 	const rCmd = [];
 	//rCmd.push('pwd');
 	//rCmd.push(`ls refs/${dName}`);
-	//rCmd.push(`npx desi82-cli -d=desi82/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
+	//rCmd.push(`npx ${cli} -d=${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
+	rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
 	// svg, dxf
-	for (const face of c_svgdxf[desiName]) {
-		rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
-		rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
+	for (const face of c_svgdxf[dName]) {
+		rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
+		rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
 	}
 	// paxJson
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
+	rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
 	// OpenSCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
+	rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 	//rCmd.push(`openscad -o refs/${dName}/${fName}_oscad.stl refs/${dName}/${fName}.scad`);
 	// JsCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.js write js_3d_openjscad`);
+	rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.js write js_3d_openjscad`);
 	//rCmd.push(`cd refs && npx jscad ${dName}/${fName}.js -o ${dName}/${fName}_jscad.stl`);
 	// FreeCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
+	rCmd.push(`npx ${cli} -d=${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
 	//rCmd.push(`freecad.cmd refs/${dName}/${fName}.py refs/${dName}/${fName}_fc`);
 	//rCmd.push(`npx rimraf refs/${dName}`);
-	return rCmd
+	return rCmd;
 }
 
 const aExec = promisify(exec);
