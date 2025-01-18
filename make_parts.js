@@ -20,6 +20,15 @@ const c_Parts = {
 	myPartL: 'myPartL_v01',
 	myPartM: 'myPartM_v01',
 	myPartN: 'myPartN_v01',
+	myPartO: 'myPartO_v01',
+	myPartP: 'myPartP_v01',
+	myPartQ: 'myPartQ_v01',
+	myPartR: 'myPartR_v01',
+	myPartS: 'myPartS_v01',
+	myPartT: 'myPartT_v01',
+	myPartU: 'myPartU_v01',
+	myPartV: 'myPartV_v01',
+	myPartW: 'myPartW_v01',
 };
 
 // partName: 2D-faces
@@ -38,12 +47,23 @@ const c_svgdxf = {
 	myPartL: ['face1'],
 	myPartM: ['face1'],
 	myPartN: ['face1'],
+	myPartO: ['face1'],
+	myPartP: ['face1'],
+	myPartQ: ['face1'],
+	myPartR: ['faceDress', 'faceShort'],
+	myPartS: ['flat', 'prf00', 'prf01', 'prf02', 'prf03', 'prf04', 'prf05', 'prf06', 'prf07', 'prf08', 'prf09'],
+	myPartT: ['faceSection', 'faceSide'],
+	myPartU: ['faceSide', 'faceSection'],
+	myPartV: ['faceSide1', 'faceSide2', 'faceTop'],
+	myPartW: ['faceTop', 'faceFace'],
 };
 
 // partName: designName
 const pre51g1 = ['myPartA', 'myPartB', 'myPartC', 'myPartD'];
 const pre51g2 = ['myPartE', 'myPartF', 'myPartG', 'myPartH', 'myPartI', 'myPartJ', 'myPartK'];
 const pre52 = ['myPartL', 'myPartM', 'myPartN'];
+const pre53 = ['myPartO', 'myPartP', 'myPartQ', 'myPartR'];
+const pre53b = ['myPartS', 'myPartT', 'myPartU', 'myPartV', 'myPartW'];
 function inferDesignName(partName) {
 	const re = /_[A-Z][0-9]*$/;
 	const desiName = partName.replace(re, '');
@@ -58,6 +78,12 @@ function inferDesignName(partName) {
 	} else if (pre52.includes(desiName)) {
 		rCli = 'desi52-cli';
 		prefix = 'desi52/';
+	} else if (pre53.includes(desiName)) {
+		rCli = 'desi53-cli';
+		prefix = 'desi53/';
+	} else if (pre53b.includes(desiName)) {
+		rCli = 'desi53-cli';
+		prefix = 'desi53b/';
 	}
 	if (prefix === '') {
 		console.log(`err732: partName ${partName} not identified for any prefix`);
