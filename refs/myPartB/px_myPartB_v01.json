@@ -1,0 +1,14 @@
+{
+  "lastModif": "20250118_033634",
+  "partName": "myPartB",
+  "pVal": {
+    "L1": 60,
+    "extShape": 0,
+    "D1": 50,
+    "Inner hollow": 0,
+    "hollow": 1,
+    "intShape": 0,
+    "S1": 20
+  },
+  "comment": "Written by geom_cli"
+}

@@ -1,0 +1,19 @@
+{
+  "lastModif": "20250118_033635",
+  "partName": "myPartF",
+  "pVal": {
+    "L1": 200,
+    "H1": 100,
+    "H2": 60,
+    "L2": 60,
+    "L3": 40,
+    "R1": 10,
+    "R2": 10,
+    "R3": 10,
+    "R4": 10,
+    "CS": 0,
+    "R5": 10,
+    "extrudLength": 50
+  },
+  "comment": "Written by geom_cli"
+}
