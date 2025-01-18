@@ -1,0 +1,5 @@
+myPartW simTime: 0
+myPartW: height 8.00 m
+myPartW: roof-angle 38.66 degree
+myPartW: one-side roof-length 7.68 m
+myPartW drawn successfully!

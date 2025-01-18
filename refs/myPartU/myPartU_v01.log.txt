@@ -1,0 +1,13 @@
+myPartU simTime: 0
+myPartU: Length 200.00  Dmax 60.00 mm
+[myPartAref1]: myPartAref1 simTime: 0
+[myPartAref1]: myPartA-length: 40.00 mm
+[myPartAref1]: myPartA-external-diameter: 60.00 mm
+[myPartAref1]: myPartA-internal-diameter: 50.00 mm
+[myPartAref1]: myPartA drawn successfully!
+[myPartAref2]: myPartAref2 simTime: 0
+[myPartAref2]: myPartA-length: 40.00 mm
+[myPartAref2]: myPartA-external-diameter: 30.00 mm
+[myPartAref2]: myPartA-internal-diameter: 20.00 mm
+[myPartAref2]: myPartA drawn successfully!
+myPartU drawn successfully!

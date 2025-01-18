@@ -1,0 +1,192 @@
+{
+  "partName": "myPartL",
+  "pDef": {
+    "partName": "myPartL",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 40,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartL_face.svg",
+      "D2": "myPartL_face.svg",
+      "D3": "myPartL_face.svg",
+      "L1": "myPartL_face.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 10,
+    "D2": 30,
+    "D3": 60,
+    "L1": 40
+  },
+  "figures": {
+    "face1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 15,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 28.284271247461902,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": 3.5355339059327378,
+              "py": 3.5355339059327373
+            },
+            {
+              "typ": 1,
+              "px": 9.999999999999998,
+              "py": 28.284271247461902
+            },
+            {
+              "typ": 1,
+              "px": 9.18485099360515e-16,
+              "py": 15
+            },
+            {
+              "typ": 1,
+              "px": -9.999999999999995,
+              "py": 28.284271247461906
+            },
+            {
+              "typ": 1,
+              "px": -3.5355339059327373,
+              "py": 3.5355339059327378
+            },
+            {
+              "typ": 1,
+              "px": -28.284271247461902,
+              "py": 10
+            },
+            {
+              "typ": 1,
+              "px": -15,
+              "py": 1.83697019872103e-15
+            },
+            {
+              "typ": 1,
+              "px": -28.284271247461906,
+              "py": -9.999999999999993
+            },
+            {
+              "typ": 1,
+              "px": -3.5355339059327386,
+              "py": -3.5355339059327373
+            },
+            {
+              "typ": 1,
+              "px": -10.000000000000002,
+              "py": -28.284271247461902
+            },
+            {
+              "typ": 1,
+              "px": -2.7554552980815444e-15,
+              "py": -15
+            },
+            {
+              "typ": 1,
+              "px": 9.999999999999991,
+              "py": -28.284271247461906
+            },
+            {
+              "typ": 1,
+              "px": 3.535533905932737,
+              "py": -3.5355339059327386
+            },
+            {
+              "typ": 1,
+              "px": 28.284271247461902,
+              "py": -10.000000000000004
+            },
+            {
+              "typ": 1,
+              "px": 15,
+              "py": -3.67394039744206e-15
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartL",
+        "face": "myPartL_face1",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartL",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartL"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartL simTime: 0\nmyPartL: aL12 19.47 degree\nmyPartL drawn successfully!\n"
+}

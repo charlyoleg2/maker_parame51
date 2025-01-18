@@ -1,0 +1,318 @@
+{
+  "partName": "myPartR",
+  "pDef": {
+    "partName": "myPartR",
+    "params": [
+      {
+        "name": "P1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "B1",
+        "unit": "mm",
+        "init": 90,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 140,
+        "min": 80,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "a1",
+        "unit": "degree",
+        "init": 20,
+        "min": 1,
+        "max": 45,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "M2",
+        "unit": "mm",
+        "init": 10,
+        "min": 4,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "C1",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "C2",
+        "unit": "mm",
+        "init": 20,
+        "min": 4,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 50,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S2",
+        "unit": "mm",
+        "init": 25,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S3",
+        "unit": "mm",
+        "init": 40,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S4",
+        "unit": "mm",
+        "init": 28,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "P1": "myPartR_dress.svg",
+      "B1": "myPartR_dress.svg",
+      "H1": "myPartR_dress.svg",
+      "a1": "myPartR_dress.svg",
+      "M1": "myPartR_dress.svg",
+      "M2": "myPartR_dress.svg",
+      "C1": "myPartR_dress.svg",
+      "C2": "myPartR_dress.svg",
+      "S1": "myPartR_short.svg",
+      "S2": "myPartR_short.svg",
+      "S3": "myPartR_short.svg",
+      "S4": "myPartR_short.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "P1": 50,
+    "B1": 90,
+    "H1": 140,
+    "a1": 20,
+    "M1": 50,
+    "M2": 10,
+    "C1": 30,
+    "C2": 20,
+    "S1": 50,
+    "S2": 25,
+    "S3": 40,
+    "S4": 28
+  },
+  "figures": {
+    "faceDress": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 45,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 25,
+              "py": 140,
+              "radius": 343.7729423870709,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 62.157241273869715,
+              "py": 106.5434696820571
+            },
+            {
+              "typ": 1,
+              "px": 69.22830908573519,
+              "py": 113.61453749392257
+            },
+            {
+              "typ": 1,
+              "px": 29.141104721640332,
+              "py": 155.45481322062508
+            },
+            {
+              "typ": 1,
+              "px": 15,
+              "py": 161
+            },
+            {
+              "typ": 1,
+              "px": 10.5,
+              "py": 147
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 141
+            },
+            {
+              "typ": 1,
+              "px": -10.5,
+              "py": 147
+            },
+            {
+              "typ": 1,
+              "px": -15,
+              "py": 161
+            },
+            {
+              "typ": 1,
+              "px": -29.141104721640332,
+              "py": 155.45481322062508
+            },
+            {
+              "typ": 1,
+              "px": -65.52759812980838,
+              "py": 109.91382653799576
+            },
+            {
+              "typ": 1,
+              "px": -58.456530317942914,
+              "py": 102.84275872613028
+            },
+            {
+              "typ": 1,
+              "px": -25,
+              "py": 140
+            },
+            {
+              "typ": 2,
+              "px": -45,
+              "py": 0,
+              "radius": 343.7729423870709,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceShort": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 25,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 31.945927106677217,
+              "py": -39.39231012048832
+            },
+            {
+              "typ": 1,
+              "px": 4.371310022335393,
+              "py": -44.254459095162375
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": -25
+            },
+            {
+              "typ": 1,
+              "px": -4.371310022335386,
+              "py": -44.25445909516237
+            },
+            {
+              "typ": 1,
+              "px": -31.94592710667721,
+              "py": -39.39231012048832
+            },
+            {
+              "typ": 1,
+              "px": -25,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 25,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [],
+    "volumes": []
+  },
+  "subs": {},
+  "log": "myPartR simTime: 0\nmyPartR: dress 140.00 x 90.00 mm\nmyPartR drawn successfully!\n"
+}

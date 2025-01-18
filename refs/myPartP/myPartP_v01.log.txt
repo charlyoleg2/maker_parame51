@@ -1,0 +1,3 @@
+myPartP simTime: 0
+myPartP: rectangle 300.00 x 180.00 mm
+myPartP drawn successfully!

@@ -1,0 +1,3 @@
+myPartQ simTime: 0
+myPartQ: amplitude 15.00 mm
+myPartQ drawn successfully!

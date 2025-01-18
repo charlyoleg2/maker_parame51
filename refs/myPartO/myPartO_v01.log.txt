@@ -1,0 +1,3 @@
+myPartO simTime: 0
+myPartO: Lmax 40.00 mm
+myPartO drawn successfully!

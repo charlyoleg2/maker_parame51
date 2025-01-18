@@ -1,0 +1,146 @@
+{
+  "partName": "myPartQ",
+  "pDef": {
+    "partName": "myPartQ",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R2",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartQ_face.svg",
+      "R2": "myPartQ_face.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 30,
+    "R2": 2
+  },
+  "figures": {
+    "face1": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 15
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 13.585786437626904,
+              "py": 1.4142135623730954
+            },
+            {
+              "typ": 1,
+              "px": 1.4142135623730954,
+              "py": 13.585786437626904
+            },
+            {
+              "typ": 2,
+              "px": -1.4142135623730951,
+              "py": 13.585786437626904,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -13.585786437626904,
+              "py": 1.4142135623730951
+            },
+            {
+              "typ": 2,
+              "px": -13.585786437626904,
+              "py": -1.4142135623730951,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -1.4142135623730951,
+              "py": -13.585786437626904
+            },
+            {
+              "typ": 2,
+              "px": 1.4142135623730954,
+              "py": -13.585786437626904,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 13.585786437626904,
+              "py": -1.4142135623730954
+            },
+            {
+              "typ": 2,
+              "px": 13.585786437626904,
+              "py": 1.4142135623730954,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartQ",
+        "face": "myPartQ_face1",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartQ",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartQ"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartQ simTime: 0\nmyPartQ: amplitude 15.00 mm\nmyPartQ drawn successfully!\n"
+}

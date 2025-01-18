@@ -1,0 +1,282 @@
+{
+  "partName": "myPartW",
+  "pDef": {
+    "partName": "myPartW",
+    "params": [
+      {
+        "name": "W1",
+        "unit": "m",
+        "init": 10,
+        "min": 1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "m",
+        "init": 15,
+        "min": 1,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "m",
+        "init": 0.2,
+        "min": 0.05,
+        "max": 0.5,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "roof",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "L1",
+        "unit": "m",
+        "init": 1,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "m",
+        "init": 1,
+        "min": 0,
+        "max": 2,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "m",
+        "init": 4,
+        "min": 1,
+        "max": 10,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "m",
+        "init": 4,
+        "min": 1,
+        "max": 10,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "m",
+        "init": 0.2,
+        "min": 0.05,
+        "max": 0.5,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "W1": "myPartW_top.svg",
+      "T1": "myPartW_top.svg",
+      "E1": "myPartW_top.svg",
+      "L1": "myPartW_top.svg",
+      "L2": "myPartW_top.svg",
+      "H1": "myPartW_face.svg",
+      "H2": "myPartW_face.svg",
+      "E2": "myPartW_face.svg"
+    },
+    "sim": {
+      "tMax": 360,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "W1": 10,
+    "T1": 15,
+    "E1": 0.2,
+    "roof": 0,
+    "L1": 1,
+    "L2": 1,
+    "H1": 4,
+    "H2": 4,
+    "E2": 0.2
+  },
+  "figures": {
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": 15
+            },
+            {
+              "typ": 1,
+              "px": -5,
+              "py": 15
+            },
+            {
+              "typ": 1,
+              "px": -5,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4.8,
+              "py": 0.2
+            },
+            {
+              "typ": 1,
+              "px": 4.8,
+              "py": 0.2
+            },
+            {
+              "typ": 1,
+              "px": 4.8,
+              "py": 14.799999999999999
+            },
+            {
+              "typ": 1,
+              "px": -4.8,
+              "py": 14.799999999999999
+            },
+            {
+              "typ": 1,
+              "px": -4.8,
+              "py": 0.2
+            }
+          ]
+        }
+      ]
+    ],
+    "faceFace": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 8
+            },
+            {
+              "typ": 1,
+              "px": -6,
+              "py": 3.1999999999999993
+            },
+            {
+              "typ": 1,
+              "px": -5.875060990489115,
+              "py": 3.0438262381113934
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 7.743875030502686
+            },
+            {
+              "typ": 1,
+              "px": 5.875060990489115,
+              "py": 3.043826238111393
+            },
+            {
+              "typ": 1,
+              "px": 6,
+              "py": 3.199999999999999
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 8
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartW_wall",
+        "face": "myPartW_faceTop",
+        "extrudeMethod": 0,
+        "length": 4,
+        "rotate": [
+          0,
+          0,
+          0.7853981633974483
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_myPartW_roof",
+        "face": "myPartW_faceFace",
+        "extrudeMethod": 0,
+        "length": 17,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0.7853981633974483
+        ],
+        "translate": [
+          -11.31370849898476,
+          11.313708498984761,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartW",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_myPartW_wall",
+          "subpax_myPartW_roof"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartW simTime: 0\nmyPartW: height 8.00 m\nmyPartW: roof-angle 38.66 degree\nmyPartW: one-side roof-length 7.68 m\nmyPartW drawn successfully!\n"
+}

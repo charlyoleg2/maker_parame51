@@ -1,0 +1,312 @@
+{
+  "partName": "myPartM",
+  "pDef": {
+    "partName": "myPartM",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 30,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ES",
+        "unit": "mm",
+        "init": 3,
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "EL",
+        "unit": "mm",
+        "init": 3,
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RS",
+        "unit": "mm",
+        "init": 100,
+        "min": 5,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RL",
+        "unit": "mm",
+        "init": 100,
+        "min": 5,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "AS",
+        "unit": "degree",
+        "init": 3,
+        "min": 0,
+        "max": 45,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "AL",
+        "unit": "degree",
+        "init": 42,
+        "min": 0,
+        "max": 45,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "myPartM_face.svg",
+      "D2": "myPartM_face.svg",
+      "D3": "myPartM_face.svg",
+      "L1": "myPartM_face.svg",
+      "ES": "myPartM_face.svg",
+      "EL": "myPartM_face.svg",
+      "RS": "myPartM_face.svg",
+      "RL": "myPartM_face.svg",
+      "AS": "myPartM_face.svg",
+      "AL": "myPartM_face.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 10,
+    "D2": 30,
+    "D3": 60,
+    "L1": 60,
+    "ES": 3,
+    "EL": 3,
+    "RS": 100,
+    "RL": 100,
+    "AS": 3,
+    "AL": 42
+  },
+  "figures": {
+    "face1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 15,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 25.980762113533157,
+              "py": 15,
+              "radius": 15.899047358083543,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 3.5355339059327378,
+              "py": 3.5355339059327373,
+              "radius": 27.96759383805333,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 15.000000000000004,
+              "py": 25.980762113533157,
+              "radius": 27.96759383805331,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 15,
+              "radius": 15.899047358083552,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -15.000000000000007,
+              "py": 25.980762113533157,
+              "radius": 100,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -3.5355339059327373,
+              "py": 3.5355339059327378,
+              "radius": 100,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -25.980762113533153,
+              "py": 15.00000000000001,
+              "radius": 100,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -15,
+              "py": 0,
+              "radius": 100,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -25.980762113533157,
+              "py": -15.000000000000004,
+              "radius": 11.995245754882907,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -3.5355339059327386,
+              "py": -3.5355339059327373,
+              "radius": 30.913880730043612,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -15.000000000000014,
+              "py": -25.980762113533153,
+              "radius": 30.913880730043555,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": -15,
+              "radius": 11.995245754882903,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 15.000000000000004,
+              "py": -25.980762113533157,
+              "radius": 100,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 3.5355339059327378,
+              "py": -3.5355339059327373,
+              "radius": 100,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 25.980762113533157,
+              "py": -15,
+              "radius": 100,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 15,
+              "py": 0,
+              "radius": 100,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_myPartM",
+        "face": "myPartM_face1",
+        "extrudeMethod": 0,
+        "length": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_myPartM",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_myPartM"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "myPartM simTime: 0\nmyPartM: aL12 30.00 degree\nmyPartM drawn successfully!\n"
+}
