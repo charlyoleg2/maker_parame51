@@ -57,7 +57,7 @@ const c_svgdxf = {
 	myPartQ: ['face1'],
 	myPartR: ['faceDress', 'faceShort'],
 	myPartS: ['flat', 'prf00', 'prf01', 'prf02', 'prf03', 'prf04', 'prf05', 'prf06', 'prf07', 'prf08', 'prf09'],
-	myPartS_B: ['flat', 'prf00', 'prf01', 'prf02', 'prf03', 'prf04', 'prf05', 'prf06'],
+	myPartS_B: ['flat', 'prf00', 'prf01', 'prf02', 'prf03', 'prf04', 'prf05'],
 	myPartT: ['faceSection', 'faceSide'],
 	myPartU: ['faceSide', 'faceSection'],
 	myPartV: ['faceSide1', 'faceSide2', 'faceTop'],
