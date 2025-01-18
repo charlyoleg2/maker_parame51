@@ -37,8 +37,8 @@
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
-		"desi51-cli": "^0.5.15",
-		"desi51-uis": "^0.1.4",
+		"desi51-cli": "^0.5.16",
+		"desi51-uis": "^0.1.5",
 		"desi52-cli": "^0.1.5",
 		"desi52-uis": "^0.1.5",
 		"desi53-cli": "^0.1.6",
