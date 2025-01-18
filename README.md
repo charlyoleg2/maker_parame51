@@ -39,7 +39,7 @@ sudo snap install openscad
 Upgrade
 -------
 
-For working with the latest *desi82* version:
+For working with the latest *desi51* version:
 
 ```bash
 npm outdated
@@ -56,9 +56,9 @@ git clone https://github.com/charlyoleg2/maker_parame51
 cd maker_parame51
 npm install
 npm run
-npm run desi82-uis
-npx desi82-uis
-npx desi82-cli --help
+npm run desi51-uis
+npx desi51-uis
+npx desi51-cli --help
 ./make_parts.js
 ```
 
