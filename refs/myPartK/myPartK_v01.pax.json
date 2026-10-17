@@ -506,11 +506,6 @@
                 },
                 {
                   "cx": 30,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": 30,
                   "cy": 30,
                   "shape": 0
                 },
@@ -526,11 +521,6 @@
                 },
                 {
                   "cx": 30,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -30,
                   "cy": 0,
                   "shape": 0
                 },
@@ -616,6 +606,11 @@
                       "cy": 0,
                       "shape": 0
                     },
+                    "lastPoint2": {
+                      "cx": 20,
+                      "cy": 0,
+                      "shape": 0
+                    },
                     "imposedColor": ""
                   }
                 ]
@@ -669,6 +664,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": 30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": 30,
                     "cy": 0,
                     "shape": 0
@@ -729,6 +729,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -30,
+                    "cy": 30,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 }
               ],
@@ -781,6 +786,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -30,
                     "cy": 0,
                     "shape": 0
@@ -951,11 +961,6 @@
                 },
                 {
                   "cx": 30,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": 30,
                   "cy": 30,
                   "shape": 0
                 },
@@ -971,11 +976,6 @@
                 },
                 {
                   "cx": 30,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -30,
                   "cy": 0,
                   "shape": 0
                 },
@@ -1061,6 +1061,11 @@
                       "cy": 0,
                       "shape": 0
                     },
+                    "lastPoint2": {
+                      "cx": 20,
+                      "cy": 0,
+                      "shape": 0
+                    },
                     "imposedColor": ""
                   }
                 ]
@@ -1114,6 +1119,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": 30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": 30,
                     "cy": 0,
                     "shape": 0
@@ -1174,6 +1184,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -30,
+                    "cy": 30,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 }
               ],
@@ -1226,6 +1241,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -30,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -30,
                     "cy": 0,
                     "shape": 0
@@ -1396,11 +1416,6 @@
                 },
                 {
                   "cx": 50,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": 50,
                   "cy": 30,
                   "shape": 0
                 },
@@ -1416,11 +1431,6 @@
                 },
                 {
                   "cx": 50,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -50,
                   "cy": 0,
                   "shape": 0
                 },
@@ -1506,6 +1516,11 @@
                       "cy": 0,
                       "shape": 0
                     },
+                    "lastPoint2": {
+                      "cx": 40,
+                      "cy": 0,
+                      "shape": 0
+                    },
                     "imposedColor": ""
                   }
                 ]
@@ -1559,6 +1574,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": 50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": 50,
                     "cy": 0,
                     "shape": 0
@@ -1619,6 +1639,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -50,
+                    "cy": 30,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 }
               ],
@@ -1671,6 +1696,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -50,
                     "cy": 0,
                     "shape": 0
@@ -1841,11 +1871,6 @@
                 },
                 {
                   "cx": 50,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": 50,
                   "cy": 30,
                   "shape": 0
                 },
@@ -1861,11 +1886,6 @@
                 },
                 {
                   "cx": 50,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -50,
                   "cy": 0,
                   "shape": 0
                 },
@@ -1951,6 +1971,11 @@
                       "cy": 0,
                       "shape": 0
                     },
+                    "lastPoint2": {
+                      "cx": 40,
+                      "cy": 0,
+                      "shape": 0
+                    },
                     "imposedColor": ""
                   }
                 ]
@@ -2004,6 +2029,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": 50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": 50,
                     "cy": 0,
                     "shape": 0
@@ -2064,6 +2094,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -50,
+                    "cy": 30,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 }
               ],
@@ -2116,6 +2151,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -50,
+                    "cy": 0,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -50,
                     "cy": 0,
                     "shape": 0
@@ -2238,11 +2278,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -80,
-                  "cy": -50,
-                  "shape": 0
-                },
-                {
                   "cx": 80,
                   "cy": -50,
                   "shape": 0
@@ -2260,11 +2295,6 @@
                 {
                   "cx": -80,
                   "cy": -50,
-                  "shape": 0
-                },
-                {
-                  "cx": -80,
-                  "cy": -40,
                   "shape": 0
                 },
                 {
@@ -2382,6 +2412,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -2434,6 +2469,11 @@
                   "lastPoint": {
                     "cx": -80,
                     "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 40,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -2492,6 +2532,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -2542,6 +2587,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -80,
                     "cy": -40,
                     "shape": 0
@@ -2613,11 +2663,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -80,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
                   "cx": 80,
                   "cy": 0,
                   "shape": 0
@@ -2635,11 +2680,6 @@
                 {
                   "cx": -80,
                   "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -80,
-                  "cy": 10,
                   "shape": 0
                 },
                 {
@@ -2757,6 +2797,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 60,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -2809,6 +2854,11 @@
                   "lastPoint": {
                     "cx": -80,
                     "cy": 10,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 50,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -2867,6 +2917,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -2917,6 +2972,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -80,
                     "cy": 10,
                     "shape": 0
@@ -2988,11 +3048,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -80,
-                  "cy": -50,
-                  "shape": 0
-                },
-                {
                   "cx": 80,
                   "cy": -50,
                   "shape": 0
@@ -3010,11 +3065,6 @@
                 {
                   "cx": -80,
                   "cy": -50,
-                  "shape": 0
-                },
-                {
-                  "cx": -80,
-                  "cy": -40,
                   "shape": 0
                 },
                 {
@@ -3125,6 +3175,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -3177,6 +3232,11 @@
                   "lastPoint": {
                     "cx": -80,
                     "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 40,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -3242,6 +3302,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -3292,6 +3357,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -80,
                     "cy": -40,
                     "shape": 0
@@ -3363,11 +3433,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -80,
-                  "cy": 0,
-                  "shape": 0
-                },
-                {
                   "cx": 80,
                   "cy": 0,
                   "shape": 0
@@ -3385,11 +3450,6 @@
                 {
                   "cx": -80,
                   "cy": 0,
-                  "shape": 0
-                },
-                {
-                  "cx": -80,
-                  "cy": 10,
                   "shape": 0
                 },
                 {
@@ -3500,6 +3560,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 60,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -3552,6 +3617,11 @@
                   "lastPoint": {
                     "cx": -80,
                     "cy": 10,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 50,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -3617,6 +3687,11 @@
                     "cy": 0,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 0,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -3671,6 +3746,11 @@
                     "cy": 10,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 10,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 }
               ],
@@ -3688,11 +3768,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -80,
-                  "cy": -50,
-                  "shape": 0
-                },
-                {
                   "cx": 80,
                   "cy": -50,
                   "shape": 0
@@ -3710,11 +3785,6 @@
                 {
                   "cx": -80,
                   "cy": -50,
-                  "shape": 0
-                },
-                {
-                  "cx": -80,
-                  "cy": -40,
                   "shape": 0
                 },
                 {
@@ -3748,11 +3818,6 @@
                   "shape": 0
                 },
                 {
-                  "cx": -30,
-                  "cy": -80,
-                  "shape": 0
-                },
-                {
                   "cx": 30,
                   "cy": -80,
                   "shape": 0
@@ -3769,11 +3834,6 @@
                 },
                 {
                   "cx": -30,
-                  "cy": -80,
-                  "shape": 0
-                },
-                {
-                  "cx": -20,
                   "cy": -80,
                   "shape": 0
                 },
@@ -3860,6 +3920,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -3912,6 +3977,11 @@
                   "lastPoint": {
                     "cx": -80,
                     "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": 40,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -3968,6 +4038,11 @@
                     "cy": -80,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -30,
+                    "cy": 80,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -4020,6 +4095,11 @@
                   "lastPoint": {
                     "cx": -20,
                     "cy": -80,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
+                    "cx": -20,
+                    "cy": 80,
                     "shape": 0
                   },
                   "imposedColor": ""
@@ -4078,6 +4158,11 @@
                     "cy": -50,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -80,
+                    "cy": -50,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -4128,6 +4213,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -80,
+                    "cy": -40,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -80,
                     "cy": -40,
                     "shape": 0
@@ -4186,6 +4276,11 @@
                     "cy": -80,
                     "shape": 0
                   },
+                  "lastPoint2": {
+                    "cx": -30,
+                    "cy": -80,
+                    "shape": 0
+                  },
                   "imposedColor": ""
                 },
                 {
@@ -4236,6 +4331,11 @@
                   "debugPoints": [],
                   "debugLines": [],
                   "lastPoint": {
+                    "cx": -20,
+                    "cy": -80,
+                    "shape": 0
+                  },
+                  "lastPoint2": {
                     "cx": -20,
                     "cy": -80,
                     "shape": 0
